@@ -1,0 +1,225 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #777;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rosybrown;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rosybrown;
+    
+}
+
+
+.main-header {
+    background-color:  rgb(133, 16, 16);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: fantasy;
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 999px;
+    margin:0 auto;
+    padding: 1.5em;
+}
+
+.section-header {
+    font-family: fantasy;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color:  rgb(109, 29, 29);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+        margin: .5em 15% 2em 15%;
+        color: white;
+    }
+
+.tour-row {
+    border-bottom: 2px solid black;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgb(133, 16, 16);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: rosybrown;
+}
+
+.shop-item {
+    margin: 30;   
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-grow: inherit;
+    justify-content: space-around;
+}
+
+.shop-item-button {
+    color: white;
+    background-color: rgb(133, 16, 16);
+    border: none;
+    font-weight: bold;
+    border-radius: 3em;
+}
+
+.shop-item-button:hover {
+    background-color: rosybrown;
+}  
+
